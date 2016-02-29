@@ -5,8 +5,6 @@ package ca.mphost.importer.nationbuilder;
 
 import java.util.Date;
 
-import org.apache.commons.lang3.StringUtils;
-
 import ca.mphost.importer.JsonBuilder;
 import ca.mphost.importer.NationBuilderAPI;
 
