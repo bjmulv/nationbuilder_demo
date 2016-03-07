@@ -18,33 +18,33 @@ public class Person {
     private String active_customer_expires_at; //the date at which to consider a customer no longer active
     private String active_customer_started_at; //the date from which a customer is considered active
     private int author_id; //the resource ID of the person who created this person in the nation
-    private Person author; //an abbreviated person resource representing the person who created this person’s record
+    private Person author; //an abbreviated person resource representing the person who created this persons record
     private int auto_import_id; //the ID given to a signup when a person is auto imported
     private String availability; //date and time this person is available (such as for volunteer shifts)
     private String banned_at; //the time and date this person was banned
-    private Address billing_address; //an address resource representing this person’s billing address
-    private String bio; //the bio information that this person provided on their public profile via the “short bio” field
+    private Address billing_address; //an address resource representing this persons billing address
+    private String bio; //the bio information that this person provided on their public profile via the ï¿½short bioï¿½ field
     private String birthdate; //this person's birth date
     private int call_status_id; //the ID of the call status associated with this person
     private String call_status_name; //the name of the call status associated with this person
-    private int capital_amount_in_cents; //the balance of this person’s political or social capital, in cents
+    private int capital_amount_in_cents; //the balance of this persons political or social capital, in cents
     private int children_count; //the number of people assigned to this person
     private String church; //the church that this person goes to
     private String city_district; //district field
     private String city_sub_district; //district field
-    private int civicrm_id; //this person’s ID from CiviCRM
-    private int closed_invoices_amount_in_cents; //the aggregate amount of all this person’s closed invoices in cents
+    private int civicrm_id; //this persons ID from CiviCRM
+    private int closed_invoices_amount_in_cents; //the aggregate amount of all this persons closed invoices in cents
     private int closed_invoices_count; //the number of closed invoices associated with this person
     private int contact_status_id; //ID of a contact status associated with this person. Possible values: 1: answered, 2: badinfo, 9: inaccessible, 3: leftmessage, 4: meaningfulinteraction, 6: notinterested, 7: noanswer, 8: refused, 5: sendinformation, 0: other
     private String contact_status_name; //name of a contact status associated with this person: Possible values: answered, badinfo, inaccessible, leftmessage, meaningfulinteraction, notinterested, noanswer, refused, sendinformation, other
     private boolean could_vote_status; //boolean indicating if this person could vote in an election or not, derived from their election-related IDs
     private String county_district; //district field
-    private String county_file_id; //this person’s ID from a county voter file
+    private String county_file_id; //this persons ID from a county voter file
     private String created_at; //timestamp representing when this person was created in the nation
     private String demo; //Asian, Black, Hispanic, White, Other, Unknown
     private boolean do_not_call; //this is a boolean flag that lets us know if this person is on a do not call list
     private boolean do_not_contact; //this is a boolean flag that lets us know if this person is on a do not contact list
-    private int donations_amount_in_cents; //aggregate amount of all this person’s donations in cents
+    private int donations_amount_in_cents; //aggregate amount of all this persons donations in cents
     private int donations_amount_this_cycle_in_cents; //the aggregate value of the donations this person made this cycle in cents
     private int donations_count_this_cycle; //the number of donations this person made this cycle
     private int donations_count; //the total number of donations made by this person
@@ -54,7 +54,7 @@ public class Person {
     private int donations_raised_count_this_cycle; //the number of donations raised this cycle by this person, including their own
     private int donations_raised_count; //the total number of donations raised
     private int donations_to_raise_amount_in_cents; //the goal amount of donations for this person to raise in cents
-    private int dw_id; //this person’s ID from Catalist
+    private int dw_id; //this persons ID from Catalist
     private boolean email1_is_bad; //boolean indicating if email1 for this person is bad
     private String email1; //an email address for this person
     private boolean email2_is_bad; //boolean indicating if email2 for this person is bad
@@ -68,8 +68,8 @@ public class Person {
     private String employer; //the name of the company for which this person works
     private String ethnicity; //the ethnicity of this person as free text
     private int external_id; //a string representing an external identifier for this person
-    private Address facebook_address; //this person’s address based on their Facebook profile
-    private String facebook_profile_url; //the URL of this person’s Facebook profile
+    private Address facebook_address; //this persons address based on their Facebook profile
+    private String facebook_profile_url; //the URL of this persons Facebook profile
     private String facebook_updated_at; //the date and time this person's Facebook info was last updated
     private String facebook_username; //this person's Facebook username
     private String fax_number; //the fax number associated with this person
@@ -84,7 +84,7 @@ public class Person {
     private String first_recruited_at; //date and time that this user was first recruited
     private String first_supporter_at; //date and time that this user became a supporter for the first time
     private String first_volunteer_at; //date and time that this person first volunteered
-    private String full_name; //this person’s full name
+    private String full_name; //this persons full name
     private boolean has_facebook; //a boolean representing whether this person has Facebook information
     private Address home_address; //an address resource representing the home address
     private int id; //the NationBuilder ID of the person, specific to the authorized nation
@@ -93,62 +93,62 @@ public class Person {
     private String inferred_support_level; //a possible support level
     private int invoice_payments_amount_in_cents; //total invoice payment amount (cents)
     private int invoice_payments_referred_amount_in_cents; //the aggregate amount of invoice payments made by recruits of this person (cents)
-    private int invoices_amount_in_cents; //the aggregate amount of all of this person’s invoices (cents)
+    private int invoices_amount_in_cents; //the aggregate amount of all of this persons invoices (cents)
     private int invoices_count; //the number of invoices this person has
     private boolean is_deceased; //a boolean field that indicates if the person is alive or not
     private boolean is_donor; //a boolean field that indicates if the person has donated
     private boolean is_fundraiser; //a boolean value that indicates if this person has previously fundraised
     private boolean is_ignore_donation_limits; //a boolean that indicates whether this person is not subject to donation limits associated with the nation
     private boolean is_leaderboardable; //a boolean that tells if this person is allowed to show up on the leaderboard
-    private boolean is_mobile_bad; //a boolean reflecting whether this person’s cell number is invalid
+    private boolean is_mobile_bad; //a boolean reflecting whether this persons cell number is invalid
     private boolean is_possible_duplicate; //a boolean field that indicates if the NationBuilder matching algorithm thinks this person is a match to someone else in the nation
-    private boolean is_profile_private; //a boolean that tells if this person’s profile is private
-    private boolean is_profile_searchable; //a boolean that tells if this person’s profile is allowed to show up in search results
+    private boolean is_profile_private; //a boolean that tells if this persons profile is private
+    private boolean is_profile_searchable; //a boolean that tells if this persons profile is allowed to show up in search results
     private boolean is_prospect; //a boolean field that indicates if this person is a prospect
     private boolean is_supporter; //a boolean field that indicates if this person is a supporter
-    private boolean is_survey_question_private; //a boolean field that indicates if this person’s survey responses are private
-    private boolean is_twitter_follower; //whether the person is a Twitter follower of one of the nation’s broadcasters
+    private boolean is_survey_question_private; //a boolean field that indicates if this persons survey responses are private
+    private boolean is_twitter_follower; //whether the person is a Twitter follower of one of the nationï¿½s broadcasters
     private boolean is_volunteer; //a boolean field that indicates whether the person has volunteered
     private String judicial_district; //a district field
     private String labour_region; //a district field
-    private String language; //this person’s primary language
+    private String language; //this persons primary language
     private String last_call_id; //the time and date of the last call to this person
     private String last_contacted_at; //the time and date of the last time this person was contacted
     private Person last_contacted_by; //an abbreviated person resource representing the last user who contacted this person
-    private String last_donated_at; //the time and date of this person’s last donation
+    private String last_donated_at; //the time and date of this persons last donation
     private String last_fundraised_at; //the time and date of the last time this person fundraised
-    private String last_invoice_at; //the time and date of this person’s last invoice
+    private String last_invoice_at; //the time and date of this persons last invoice
     private String last_name; //this person's last name
-    private String last_rule_violation_at; //the time and date of this person’s last rule violation
+    private String last_rule_violation_at; //the time and date of this persons last rule violation
     private String legal_name; //the full (legal) name of this person
-    private String linkedin_id; //this person’s ID from LinkedIn
+    private String linkedin_id; //this persons ID from LinkedIn
     private String locale; //the ISO locale that the user has their administrative account set to (US, ES, FR etc.)
     private Address mailing_address; //an address resource representing the mailing address
-    private String marital_status; //the person’s marital status
-    private String media_market_name; //the name of this person’s media market
-    private Address meetup_address; //an address resource based on this person’s profile in Meetup
-    private String membership_expires_at; //the time and date that this user’s membership expires
-    private String membership_level_name; //the name of the level of this person’s membership
+    private String marital_status; //the persons marital status
+    private String media_market_name; //the name of this persons media market
+    private Address meetup_address; //an address resource based on this persons profile in Meetup
+    private String membership_expires_at; //the time and date that this userï¿½s membership expires
+    private String membership_level_name; //the name of the level of this persons membership
     private String membership_started_at; //the time and date that this user started a membership
-    private String middle_name; //this person’s middle name
+    private String middle_name; //this persons middle name
     private String mobile_normalized; //this person's cell phone number in normalized form
     private boolean mobile_opt_in; //a boolean representing whether the person has opted-in to mobile correspondence
     private String mobile; //this person's cell phone number
-    private int nbec_guid; //this person’s ID from the NationBuilder Election Center
+    private int nbec_guid; //this persons ID from the NationBuilder Election Center
     private String nbec_precinct_code; //the unique identifier assigned to this person in the NationBuilder Election Center
-    private String ngp_id; //this person’s ID from NGP
+    private String ngp_id; //this persons ID from NGP
     private String note_updated_at; //the date and time the note attached to this person was updated
     private String note; //a note to attach to the person's profile
     private String occupation; //the type of work this person does
-    private int outstanding_invoices_amount_in_cents; //the aggregate value of all this person’s outstanding invoices in cents
+    private int outstanding_invoices_amount_in_cents; //the aggregate value of all this persons outstanding invoices in cents
     private int outstanding_invoices_count; //the number of outstanding invoices this person has
     private int overdue_invoices_count; //the number of overdue invoices this person has
     private String page_slug; //the page this person first signed up from
-    private int parent_id; //the NationBuilder ID of this person’s point person
-    private Person parent; //an abbreviated person resource representing this person’s point person
+    private int parent_id; //the NationBuilder ID of this persons point person
+    private Person parent; //an abbreviated person resource representing this persons point person
     private boolean party_member; //a boolean that tells if this person is a member of a political party
     private String party; //a one-letter code representing provincial parties for nations
-    private int pf_strat_id; //a person’s historical ID from PoliticalForce
+    private int pf_strat_id; //a persons historical ID from PoliticalForce
     private String phone_normalized; //this person's home phone number in normalized form
     private String phone_time; //the time that has been selected as the best time to call this person
     private String phone; //this person's home phone number
@@ -159,47 +159,47 @@ public class Person {
     private String previous_party; //the party this person had selected before their current party selection
     private Address primary_address; //an address resource representing the primary address
     private String primary_email_id; //the resource ID of the primary email address associated with this person
-    private String priority_level_changed_at; //the date and time that this person’s priority level changed
+    private String priority_level_changed_at; //the date and time that this persons priority level changed
     private String priority_level; //the priority level associated with this person
-    private String profile_content_html; //the profile content for this person’s public profile in HTML
-    private String profile_content; //the content for this person’s public profile
-    private String profile_headline; //the headline for this person’s public profile
+    private String profile_content_html; //the profile content for this persons public profile in HTML
+    private String profile_content; //the content for this persons public profile
+    private String profile_headline; //the headline for this persons public profile
     private int received_capital_amount_in_cents; //the aggregate amount of political capital ever received by this person
     private int recruiter_id; //the ID of the person who recruited this person
     private Person recruiter; //an abbreviated person resource representing the person who recruited this person
     private int recruits_count; //the number of people that were recruited by this person
     private Address registered_address; //an address resource representing the registered address
     private String registered_at; //the date this person registered to become a voter
-    private String religion; //this person’s religion
-    private int rnc_id; //this person’s ID from the RNC
-    private String rnc_regid; //this person’s registration ID from the RNC
-    private int rule_violations_count; //the number of times this person has violated one of the nation’s rules
-    private String salesforce_id; //this person’s ID from Salesforce
+    private String religion; //this persons religion
+    private int rnc_id; //this persons ID from the RNC
+    private String rnc_regid; //this persons registration ID from the RNC
+    private int rule_violations_count; //the number of times this person has violated one of the nationï¿½s rules
+    private String salesforce_id; //this persons ID from Salesforce
     private String school_district; //a district field
     private String school_sub_district; //a district field
     private String sex; //this person's gender (M, F or O)
     private int spent_capital_amount_in_cents; //the aggregate amount of capital ever spent by this person (in cents)
-    private String state_file_id; //this person’s ID from a state voter file
+    private String state_file_id; //this persons ID from a state voter file
     private String state_lower_district; //a district field
     private String state_upper_district; //a district field
     private String submitted_address; //the address this person submitted
     private String[] subnations; //an array of subnations that this person belongs to
     private String suffix; //the suffix this person uses w/their name, i.e. Jr., Sr. or III
-    private String support_level_changed_at; //the time and date that this person’s support level changed
+    private String support_level_changed_at; //the time and date that this persons support level changed
     private String support_level; //the level of support this person has for your nation, expressed as a number between 1 and 5, 1 being Strong support, 5 meaning strong opposition, and 3 meaning undecided.
     private String support_probability_score; //the likelihood that this person will support you at election time
     private String supranational_district; //district field
     private String[] tags; //the tags assigned to this person, as an array of strings; //setting via this API has been deprecated, use the people tags API
     private String turnout_probability_score; //the probability that this person will turn out to vote
-    private Address twitter_address; //this person’s location based on their Twitter profile
+    private Address twitter_address; //this persons location based on their Twitter profile
     private String twitter_description; //the description that this person provided in their Twitter profile
     private int twitter_followers_count; //the number of followers this person has on Twitter
     private int twitter_friends_count; //the number of friends this person has on Twitter
-    private String twitter_id; //this person’s ID from Twitter
-    private String twitter_location; //an address resource representing this person’s address based on Twitter’s location data
-    private String twitter_login; //this person’s Twitter login name
-    private String twitter_name; //this person’s Twitter handle, e.g. FoobarSoftwares
-    private String twitter_updated_at; //the last time this person’s Twitter record was updated
+    private String twitter_id; //this persons ID from Twitter
+    private String twitter_location; //an address resource representing this persons address based on Twitterï¿½s location data
+    private String twitter_login; //this persons Twitter login name
+    private String twitter_name; //this persons Twitter handle, e.g. FoobarSoftwares
+    private String twitter_updated_at; //the last time this persons Twitter record was updated
     private String twitter_website; //the URL of the website that this person included in their Twitter profile
     private String unsubscribed_at; //the date/time that this person unsubscribed from emails
     private String updated_at; //the timestamp representing when this person was last updated
@@ -2594,12 +2594,12 @@ public class Person {
 		this.work_phone_number = work_phone_number;
 	}
 	private Address user_submitted_address; //an address resource representing the address this person submitted
-    private String username; //this person’s NationBuilder username
-    private String van_id; //this person’s ID from VAN
+    private String username; //this persons NationBuilder username
+    private String van_id; //this persons ID from VAN
     private String village_district; //a district field
     private int warnings_count; //the number of warnings this person has received
-    private String website; //the URL of this person’s website
-    private Address work_address; //an address resource representing this person’s work address
+    private String website; //the URL of this persons website
+    private Address work_address; //an address resource representing this persons work address
     private String work_phone_number; //a work phone number for this person
 
     

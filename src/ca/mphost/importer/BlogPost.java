@@ -82,29 +82,9 @@ public class BlogPost {
 	}
 	
 	private String filter( String str ) {
-		if( str == null )
-			return null;
-		str = StringUtils.replace( str, "’", "'");
-		str = StringUtils.replace( str, "–", "-");
-		str = StringUtils.replace( str, "è", "&egrave;");
-		str = StringUtils.replace( str, "é", "&eacute;");
 		return str;
 	}
-	/*
-	"slug": "updating-associations",
-    "status": "drafted",
-    "name": "Updating Associations",
-    "author_id": 0,
-    "external_id": 2998,
-    "tags": [
-        "fac",
-        "News &amp; Updates"
-    ],
-    "published_at": "0000-00-00T00:00:00+00:00",
-    "id": 0,
-    "content_before_flip": "<a href=\"https://twitter.com/MP_Host\" class=\"twitter-follow-button url\" data-show-count=\"true\" data-size=\"large\">Follow @MP_Host</a>\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>"
-}
-	 */
+	
 	public String toJson() {
 		JsonBuilder builder = new JsonBuilder();
 		builder.addProperty( "slug", slug );
