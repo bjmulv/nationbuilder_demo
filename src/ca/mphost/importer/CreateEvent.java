@@ -40,7 +40,7 @@ public class CreateEvent {
 		System.out.println("Event Intro:");
 		String intro = reader.readLine();
 		event.setIntro( intro );
-		event.setTime_zone( "Eastern Time (US & Canada" );
+		event.setTime_zone( "Eastern Time (US & Canada)" );
 		event.setStart_time(new Date());
 		event.setEnd_time( new Date( System.currentTimeMillis() + 10*60*1000L));
 		event.setStatus("unlisted");
